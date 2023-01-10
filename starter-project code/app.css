@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: whitesmoke;
+  display: grid;
+  place-items: center;
+}
+
+.menu__container {
+  position: relative;
+}
+
+.menu {
+  background-color: skyblue;
+  cursor: pointer;
+  padding: 1rem;
+  color: white;
+  border-radius: 5px;
+  width: max-content;
+  height: max-content;
+}
+
+.menu__items {
+  position: absolute;
+  width: 200px;
+  right: -20%;
+  top: 125%;
+  border-radius: 5px;
+  background-color: skyblue;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+}
+
+.menu__item {
+  color: white;
+  cursor: pointer;
+}
